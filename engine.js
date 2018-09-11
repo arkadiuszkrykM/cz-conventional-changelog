@@ -56,8 +56,8 @@ module.exports = function (options) {
           choices: choices
         }, {
           type: 'input',
-          name: 'scope',
-          message: 'What is the scope of this change (e.g. component or file name)? (press enter to skip)\n'
+          name: 'jira',
+          message: 'Please enter ticket credential and number (f.x KW-500):\n'
         }, {
           type: 'input',
           name: 'subject',
@@ -104,7 +104,7 @@ module.exports = function (options) {
 
         // parentheses are only needed when a scope is present
         var scope = answers.scope.trim();
-        scope = scope ? '(' + answers.scope.trim() + ')' : '';
+        scope = scope ? '/' + answers.scope.trim() : '';
 
         // Hard limit this line
         var head = (answers.type + scope + ': ' + answers.subject.trim()).slice(0, maxLineWidth);

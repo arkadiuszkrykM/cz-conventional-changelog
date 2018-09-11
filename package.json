@@ -1,6 +1,6 @@
 {
-  "name": "cz-conventional-changelog",
-  "version": "0.0.0-semantically-released.0",
+  "name": "cz-klassikradio-changelog",
+  "version": "1.0.0",
   "description": "Commitizen adapter following the conventional-changelog format.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
   "homepage": "https://github.com/commitizen/cz-conventional-changelog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/arkadiuszkrykM/cz-conventional-changelog"
   },
   "author": "Jim Cummins <jimthedev@gmail.com>",
   "license": "MIT",
