@@ -13,7 +13,7 @@
     "type": "git",
     "url": "https://github.com/arkadiuszkrykM/cz-conventional-changelog"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
+  "author": "Arkadiusz Kryk",
   "license": "MIT",
   "dependencies": {
     "conventional-commit-types": "^2.0.0",
